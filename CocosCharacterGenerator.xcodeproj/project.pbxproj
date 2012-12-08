@@ -20,6 +20,7 @@
 		C13381581673676300675550 /* female_hair in Resources */ = {isa = PBXBuildFile; fileRef = C13381541673676300675550 /* female_hair */; };
 		C13381591673676300675550 /* male_body in Resources */ = {isa = PBXBuildFile; fileRef = C13381551673676300675550 /* male_body */; };
 		C133815A1673676300675550 /* male_hair in Resources */ = {isa = PBXBuildFile; fileRef = C13381561673676300675550 /* male_hair */; };
+		C15831D216739D4A004D114B /* CharacterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C15831D116739D4A004D114B /* CharacterLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		C13381541673676300675550 /* female_hair */ = {isa = PBXFileReference; lastKnownFileType = folder; name = female_hair; path = Resources/female_hair; sourceTree = "<group>"; };
 		C13381551673676300675550 /* male_body */ = {isa = PBXFileReference; lastKnownFileType = folder; name = male_body; path = Resources/male_body; sourceTree = "<group>"; };
 		C13381561673676300675550 /* male_hair */ = {isa = PBXFileReference; lastKnownFileType = folder; name = male_hair; path = Resources/male_hair; sourceTree = "<group>"; };
+		C15831D016739D4A004D114B /* CharacterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterLayer.h; sourceTree = "<group>"; };
+		C15831D116739D4A004D114B /* CharacterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 		C1337E021672BD3900675550 /* CocosCharacterGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				C15831D016739D4A004D114B /* CharacterLayer.h */,
+				C15831D116739D4A004D114B /* CharacterLayer.m */,
 				C13381521673674100675550 /* Resources */,
 				C1337E0E1672BD3A00675550 /* AppDelegate.h */,
 				C1337E0F1672BD3A00675550 /* AppDelegate.m */,
@@ -206,6 +211,7 @@
 				C1337E091672BD3A00675550 /* main.m in Sources */,
 				C1337E101672BD3A00675550 /* AppDelegate.m in Sources */,
 				C1337E1C1672C48700675550 /* CharacterGeneratorWindowController.m in Sources */,
+				C15831D216739D4A004D114B /* CharacterLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +331,7 @@
 				C1337E181672BD3A00675550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
