@@ -12,7 +12,14 @@
 		C1337E091672BD3A00675550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1337E081672BD3A00675550 /* main.m */; };
 		C1337E0D1672BD3A00675550 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C1337E0B1672BD3A00675550 /* Credits.rtf */; };
 		C1337E101672BD3A00675550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1337E0F1672BD3A00675550 /* AppDelegate.m */; };
-		C1337E131672BD3A00675550 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1337E111672BD3A00675550 /* MainMenu.xib */; };
+		C1337E1C1672C48700675550 /* CharacterGeneratorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1337E1A1672C48700675550 /* CharacterGeneratorWindowController.m */; };
+		C1337E1D1672C48700675550 /* CharacterGeneratorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1337E1B1672C48700675550 /* CharacterGeneratorWindowController.xib */; };
+		C133814D16735EB100675550 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C133814C16735EB100675550 /* CoreGraphics.framework */; };
+		C133814F1673644B00675550 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C133814E1673644B00675550 /* MainMenu.xib */; };
+		C13381571673676300675550 /* female_body in Resources */ = {isa = PBXBuildFile; fileRef = C13381531673676300675550 /* female_body */; };
+		C13381581673676300675550 /* female_hair in Resources */ = {isa = PBXBuildFile; fileRef = C13381541673676300675550 /* female_hair */; };
+		C13381591673676300675550 /* male_body in Resources */ = {isa = PBXBuildFile; fileRef = C13381551673676300675550 /* male_body */; };
+		C133815A1673676300675550 /* male_hair in Resources */ = {isa = PBXBuildFile; fileRef = C13381561673676300675550 /* male_hair */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +35,15 @@
 		C1337E0C1672BD3A00675550 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		C1337E0E1672BD3A00675550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1337E0F1672BD3A00675550 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1337E121672BD3A00675550 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C1337E191672C48700675550 /* CharacterGeneratorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterGeneratorWindowController.h; sourceTree = "<group>"; };
+		C1337E1A1672C48700675550 /* CharacterGeneratorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterGeneratorWindowController.m; sourceTree = "<group>"; };
+		C1337E1B1672C48700675550 /* CharacterGeneratorWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterGeneratorWindowController.xib; sourceTree = "<group>"; };
+		C133814C16735EB100675550 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C133814E1673644B00675550 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C13381531673676300675550 /* female_body */ = {isa = PBXFileReference; lastKnownFileType = folder; name = female_body; path = Resources/female_body; sourceTree = "<group>"; };
+		C13381541673676300675550 /* female_hair */ = {isa = PBXFileReference; lastKnownFileType = folder; name = female_hair; path = Resources/female_hair; sourceTree = "<group>"; };
+		C13381551673676300675550 /* male_body */ = {isa = PBXFileReference; lastKnownFileType = folder; name = male_body; path = Resources/male_body; sourceTree = "<group>"; };
+		C13381561673676300675550 /* male_hair */ = {isa = PBXFileReference; lastKnownFileType = folder; name = male_hair; path = Resources/male_hair; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C133814D16735EB100675550 /* CoreGraphics.framework in Frameworks */,
 				C1337DFD1672BD3900675550 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +88,7 @@
 		C1337DFE1672BD3900675550 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C133814C16735EB100675550 /* CoreGraphics.framework */,
 				C1337DFF1672BD3900675550 /* AppKit.framework */,
 				C1337E001672BD3900675550 /* CoreData.framework */,
 				C1337E011672BD3900675550 /* Foundation.framework */,
@@ -82,10 +99,14 @@
 		C1337E021672BD3900675550 /* CocosCharacterGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				C13381521673674100675550 /* Resources */,
 				C1337E0E1672BD3A00675550 /* AppDelegate.h */,
 				C1337E0F1672BD3A00675550 /* AppDelegate.m */,
-				C1337E111672BD3A00675550 /* MainMenu.xib */,
 				C1337E031672BD3A00675550 /* Supporting Files */,
+				C1337E191672C48700675550 /* CharacterGeneratorWindowController.h */,
+				C1337E1A1672C48700675550 /* CharacterGeneratorWindowController.m */,
+				C1337E1B1672C48700675550 /* CharacterGeneratorWindowController.xib */,
+				C133814E1673644B00675550 /* MainMenu.xib */,
 			);
 			path = CocosCharacterGenerator;
 			sourceTree = "<group>";
@@ -100,6 +121,17 @@
 				C1337E0B1672BD3A00675550 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C13381521673674100675550 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C13381531673676300675550 /* female_body */,
+				C13381541673676300675550 /* female_hair */,
+				C13381551673676300675550 /* male_body */,
+				C13381561673676300675550 /* male_hair */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +187,12 @@
 			files = (
 				C1337E071672BD3A00675550 /* InfoPlist.strings in Resources */,
 				C1337E0D1672BD3A00675550 /* Credits.rtf in Resources */,
-				C1337E131672BD3A00675550 /* MainMenu.xib in Resources */,
+				C1337E1D1672C48700675550 /* CharacterGeneratorWindowController.xib in Resources */,
+				C133814F1673644B00675550 /* MainMenu.xib in Resources */,
+				C13381571673676300675550 /* female_body in Resources */,
+				C13381581673676300675550 /* female_hair in Resources */,
+				C13381591673676300675550 /* male_body in Resources */,
+				C133815A1673676300675550 /* male_hair in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +205,7 @@
 			files = (
 				C1337E091672BD3A00675550 /* main.m in Sources */,
 				C1337E101672BD3A00675550 /* AppDelegate.m in Sources */,
+				C1337E1C1672C48700675550 /* CharacterGeneratorWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +226,6 @@
 				C1337E0C1672BD3A00675550 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		C1337E111672BD3A00675550 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1337E121672BD3A00675550 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
