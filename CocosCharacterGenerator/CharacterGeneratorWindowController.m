@@ -65,6 +65,17 @@
     [self drawCharacter];
 }
 
+-(void)dealloc
+{
+    [colorArray release];
+    [sheet release];
+    [segmentedMaleFemale release];
+    [segmentedHairBody release];
+    [imageView release];
+
+    [super dealloc];
+}
+
 -(IBAction)segmentedValueChanged:(id)sender
 {
     NSSegmentedControl *seg = (NSSegmentedControl*)sender;
