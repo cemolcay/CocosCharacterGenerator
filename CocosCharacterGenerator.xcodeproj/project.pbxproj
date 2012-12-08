@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1337DFD1672BD3900675550 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1337DFC1672BD3900675550 /* Cocoa.framework */; };
+		C1337E071672BD3A00675550 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1337E051672BD3A00675550 /* InfoPlist.strings */; };
+		C1337E091672BD3A00675550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1337E081672BD3A00675550 /* main.m */; };
+		C1337E0D1672BD3A00675550 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C1337E0B1672BD3A00675550 /* Credits.rtf */; };
+		C1337E101672BD3A00675550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1337E0F1672BD3A00675550 /* AppDelegate.m */; };
+		C1337E131672BD3A00675550 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1337E111672BD3A00675550 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1337DF81672BD3900675550 /* CocosCharacterGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocosCharacterGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1337DFC1672BD3900675550 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C1337DFF1672BD3900675550 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C1337E001672BD3900675550 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1337E011672BD3900675550 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1337E041672BD3A00675550 /* CocosCharacterGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocosCharacterGenerator-Info.plist"; sourceTree = "<group>"; };
+		C1337E061672BD3A00675550 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1337E081672BD3A00675550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1337E0A1672BD3A00675550 /* CocosCharacterGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocosCharacterGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		C1337E0C1672BD3A00675550 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C1337E0E1672BD3A00675550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1337E0F1672BD3A00675550 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1337E121672BD3A00675550 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1337DF51672BD3900675550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1337DFD1672BD3900675550 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1337DED1672BD3900675550 = {
+			isa = PBXGroup;
+			children = (
+				C1337E021672BD3900675550 /* CocosCharacterGenerator */,
+				C1337DFB1672BD3900675550 /* Frameworks */,
+				C1337DF91672BD3900675550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1337DF91672BD3900675550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1337DF81672BD3900675550 /* CocosCharacterGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1337DFB1672BD3900675550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1337DFC1672BD3900675550 /* Cocoa.framework */,
+				C1337DFE1672BD3900675550 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1337DFE1672BD3900675550 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1337DFF1672BD3900675550 /* AppKit.framework */,
+				C1337E001672BD3900675550 /* CoreData.framework */,
+				C1337E011672BD3900675550 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C1337E021672BD3900675550 /* CocosCharacterGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				C1337E0E1672BD3A00675550 /* AppDelegate.h */,
+				C1337E0F1672BD3A00675550 /* AppDelegate.m */,
+				C1337E111672BD3A00675550 /* MainMenu.xib */,
+				C1337E031672BD3A00675550 /* Supporting Files */,
+			);
+			path = CocosCharacterGenerator;
+			sourceTree = "<group>";
+		};
+		C1337E031672BD3A00675550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1337E041672BD3A00675550 /* CocosCharacterGenerator-Info.plist */,
+				C1337E051672BD3A00675550 /* InfoPlist.strings */,
+				C1337E081672BD3A00675550 /* main.m */,
+				C1337E0A1672BD3A00675550 /* CocosCharacterGenerator-Prefix.pch */,
+				C1337E0B1672BD3A00675550 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1337DF71672BD3900675550 /* CocosCharacterGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1337E161672BD3A00675550 /* Build configuration list for PBXNativeTarget "CocosCharacterGenerator" */;
+			buildPhases = (
+				C1337DF41672BD3900675550 /* Sources */,
+				C1337DF51672BD3900675550 /* Frameworks */,
+				C1337DF61672BD3900675550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocosCharacterGenerator;
+			productName = CocosCharacterGenerator;
+			productReference = C1337DF81672BD3900675550 /* CocosCharacterGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1337DEF1672BD3900675550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Cem Olcay";
+			};
+			buildConfigurationList = C1337DF21672BD3900675550 /* Build configuration list for PBXProject "CocosCharacterGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1337DED1672BD3900675550;
+			productRefGroup = C1337DF91672BD3900675550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1337DF71672BD3900675550 /* CocosCharacterGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1337DF61672BD3900675550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1337E071672BD3A00675550 /* InfoPlist.strings in Resources */,
+				C1337E0D1672BD3A00675550 /* Credits.rtf in Resources */,
+				C1337E131672BD3A00675550 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1337DF41672BD3900675550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1337E091672BD3A00675550 /* main.m in Sources */,
+				C1337E101672BD3A00675550 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1337E051672BD3A00675550 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1337E061672BD3A00675550 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1337E0B1672BD3A00675550 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1337E0C1672BD3A00675550 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C1337E111672BD3A00675550 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1337E121672BD3A00675550 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1337E141672BD3A00675550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1337E151672BD3A00675550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1337E171672BD3A00675550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocosCharacterGenerator/CocosCharacterGenerator-Prefix.pch";
+				INFOPLIST_FILE = "CocosCharacterGenerator/CocosCharacterGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1337E181672BD3A00675550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocosCharacterGenerator/CocosCharacterGenerator-Prefix.pch";
+				INFOPLIST_FILE = "CocosCharacterGenerator/CocosCharacterGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1337DF21672BD3900675550 /* Build configuration list for PBXProject "CocosCharacterGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1337E141672BD3A00675550 /* Debug */,
+				C1337E151672BD3A00675550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1337E161672BD3A00675550 /* Build configuration list for PBXNativeTarget "CocosCharacterGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1337E171672BD3A00675550 /* Debug */,
+				C1337E181672BD3A00675550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1337DEF1672BD3900675550 /* Project object */;
+}
