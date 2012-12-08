@@ -26,6 +26,6 @@
 @property (nonatomic, retain) CCAction *walkUp;
 
 -(void)setAnimatedSpritePosition:(CGPoint)pos;
--(id)init;
+-(id)initWithSheetName:(NSString*)sheetName;
 
 @end

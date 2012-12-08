@@ -21,9 +21,6 @@
 #define sheetRightLineNumber 2
 #define sheetUpLineNumber 3
 
-//Sprite Sheet File Name
-#define sheetName @"sheet.png"
-
 @implementation CharacterLayer
 
 @synthesize spriteSheet;
@@ -33,7 +30,7 @@
 @synthesize walkDown;
 @synthesize walkUp;
 
--(id)init
+-(id)initWithSheetName:(NSString*)sheetName
 {
 	if ((self = [super init])) {
 		
